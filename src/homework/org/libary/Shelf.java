@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Shelf {
     String genre;
+    String author;
     List<Book> books;
 
     public Shelf(String genre) {
@@ -14,6 +15,10 @@ public class Shelf {
 
     public String getGenre() {
         return genre;
+    }
+
+    public String getAuthor() {
+        return author;
     }
 
     public void setGenre(String genre) {
@@ -27,6 +32,7 @@ public class Shelf {
     public void addBook(Book book) {
         books.add(book);
     }
+
 
 
     public void setBooks(List<Book> books) {
